@@ -1,0 +1,16 @@
+body {
+  --at-apply: bg-zinc-900 text-zinc-300;
+}
+
+:root {
+  text-rendering: optimizeLegibility;
+}
+
+
+@font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/src/assets/font/BarlowCondensed-Regular.ttf");
+}

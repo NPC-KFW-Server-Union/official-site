@@ -1,0 +1,36 @@
+{
+  "name": "unocss-sveltekit-scoped",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+  },
+  "devDependencies": {
+    "@iconify-json/logos": "^1.1.37",
+    "@iconify-json/ri": "^1.1.12",
+    "@julr/unocss-preset-forms": "^0.0.5",
+    "@sveltejs/adapter-auto": "^2.1.1",
+    "@sveltejs/kit": "^1.27.4",
+    "@types/animejs": "^3.1.11",
+    "@unocss/core": "latest",
+    "@unocss/preset-icons": "latest",
+    "@unocss/svelte-scoped": "latest",
+    "svelte": "^4.2.2",
+    "svelte-carousel": "github:vadimkorr/svelte-carousel#pull/142/head",
+    "svelte-check": "^3.5.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2",
+    "unocss": "latest",
+    "vite": "^4.5.0"
+  },
+  "stackblitz": {
+    "installDependencies": false,
+    "startCommand": "node .stackblitz.js && npm install && npm run dev"
+  },
+  "dependencies": {
+    "animejs": "^3.2.1"
+  }
+}
